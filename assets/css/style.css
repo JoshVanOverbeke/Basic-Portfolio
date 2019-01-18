@@ -3,7 +3,7 @@ body {
     color: #777777;
     width: 100%;
     margin: 0px;
-    background-color: #dddddd;
+    background-image: url("../images/pipes.png");
 }
 
 h1{
@@ -113,4 +113,23 @@ footer{
 #copyright{
     margin: 0px;
     padding-top: 2em;
+}
+
+#name, #email, #messag{
+    width: 100%;
+}
+#messag{
+    height: 200px;
+}
+
+label, input {
+    display: block;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 8px 24px;
+    text-decoration: none;
 }
